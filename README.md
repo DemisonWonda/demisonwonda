@@ -6,3 +6,4 @@
 - 📫 How to reach me: demisonwonda@example.com
 - ⚡ Fun fact: I love creating animations and UI effects!
 
+![Uploading image.png…]()
