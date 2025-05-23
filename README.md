@@ -5,3 +5,4 @@
 - 👯 I’m open to collaborating on interesting projects.
 - 📫 How to reach me: demisonwonda@example.com
 - ⚡ Fun fact: I love creating animations and UI effects!
+
