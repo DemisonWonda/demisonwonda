@@ -57,4 +57,16 @@
                     <li {{$pages=='tapel' ? 'class=active' : ''}}><a class="nav-link" href="{{route('dashboard')}}"><i class="far fa-calendar-plus"></i> <span>SoY</span></a></li>
                 </ul>
             </li>
+              <li class="nav-item dropdown ">
+                <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-print"></i>   <span>Print</span></a>
+                <ul class="dropdown-menu">
+
+                    <li {{$pages=='users' ? 'class=active' : ''}}><a class="nav-link" href="{{route('dashboard')}}"><i class="fas fa-users"></i> <span>SIswa</span></a></li>
+                    <li {{$pages=='tapel' ? 'class=active' : ''}}><a class="nav-link" href="{{route('dashboard')}}"><i class="fas fa-file-alt"></i> <span>Nilai</span></a></li>
+                </ul>
+            </li>
+            
+            
+        
+
 

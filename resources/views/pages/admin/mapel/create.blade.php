@@ -83,7 +83,7 @@ Mata Pelajaran
                         </div>
                       </div>
                       <div class="form-group col-md-3 col-3 mt-0 ml-5">
-                        <label class="form-label">Pilih Jurusan</label>
+                        <label class="form-label">Pilih Kelas</label>
                         <div class="selectgroup w-100">
                           <label class="selectgroup-item">
                             <input type="radio" name="jurusan" value="Semua" class="selectgroup-input" checked="">
@@ -91,12 +91,30 @@ Mata Pelajaran
                           </label>
                           <label class="selectgroup-item">
                             <input type="radio" name="jurusan" value="OTO" class="selectgroup-input" >
-                            <span class="selectgroup-button">OTO</span>
+                            <span class="selectgroup-button">A</span>
                           </label>
                           <label class="selectgroup-item">
                             <input type="radio" name="jurusan" value="TKJ" class="selectgroup-input">
-                            <span class="selectgroup-button">TKJ</span>
+                            <span class="selectgroup-button">B</span>
                           </label>
+                          <label class="selectgroup-item">
+                            <input type="radio" name="jurusan" value="TKJ" class="selectgroup-input">
+                            <span class="selectgroup-button">C</span>
+                          </label>
+                          <label class="selectgroup-item">
+                            <input type="radio" name="jurusan" value="TKJ" class="selectgroup-input">
+                            <span class="selectgroup-button">D</span>
+                          </label>
+                          <label class="selectgroup-item">
+                            <input type="radio" name="jurusan" value="TKJ" class="selectgroup-input">
+                            <span class="selectgroup-button">E</span>
+                            <label class="selectgroup-item">
+                            <input type="radio" name="jurusan" value="TKJ" class="selectgroup-input">
+                            <span class="selectgroup-button">B</span>
+                          </label>
+                           <label class="selectgroup-item">
+                            <input type="radio" name="jurusan" value="TKJ" class="selectgroup-input">
+                            <span class="selectgroup-button">F</span>
 
                         </div>
                       </div>
@@ -115,6 +133,21 @@ Mata Pelajaran
                             <input type="radio" name="semester" value="2" class="selectgroup-input" {{Fungsi::semesteraktif()==2 ? 'checked=""' : ''}}>
                             <span class="selectgroup-button">2</span>
                           </label>
+                          <label class="selectgroup-item">
+                            <input type="radio" name="semester" value="2" class="selectgroup-input" {{Fungsi::semesteraktif()==2 ? 'checked=""' : ''}}>
+                            <span class="selectgroup-button">3</span>
+                          </label>
+                          <label class="selectgroup-item">
+                            <input type="radio" name="semester" value="2" class="selectgroup-input" {{Fungsi::semesteraktif()==2 ? 'checked=""' : ''}}>
+                            <span class="selectgroup-button">4</span>
+                          </label>
+                          <label class="selectgroup-item">
+                            <input type="radio" name="semester" value="2" class="selectgroup-input" {{Fungsi::semesteraktif()==2 ? 'checked=""' : ''}}>
+                            <span class="selectgroup-button">5</span>
+                          </label>
+                          <label class="selectgroup-item">
+                            <input type="radio" name="semester" value="2" class="selectgroup-input" {{Fungsi::semesteraktif()==2 ? 'checked=""' : ''}}>
+                            <span class="selectgroup-button">6</span>
 
                         </div>
                       </div>

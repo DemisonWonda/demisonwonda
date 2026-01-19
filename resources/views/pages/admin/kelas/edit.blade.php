@@ -42,15 +42,27 @@ Kelas
                         <div class="selectgroup w-100">
                           <label class="selectgroup-item">
                             <input type="radio" name="tingkatan" value="X" class="selectgroup-input" {{$id->tingkatan=='X' ? 'checked=""' : ''}}>
-                            <span class="selectgroup-button">X</span>
+                            <span class="selectgroup-button">I</span>
                           </label>
                           <label class="selectgroup-item">
                             <input type="radio" name="tingkatan" value="XI" class="selectgroup-input"  {{$id->tingkatan=='XI' ? 'checked=""' : ''}}>
-                            <span class="selectgroup-button">XI</span>
+                            <span class="selectgroup-button">II</span>
                           </label>
                           <label class="selectgroup-item">
                             <input type="radio" name="tingkatan" value="XII" class="selectgroup-input"  {{$id->tingkatan=='XII' ? 'checked=""' : ''}}>
-                            <span class="selectgroup-button">XII</span>
+                            <span class="selectgroup-button">III</span>
+                          </label>
+                          <label class="selectgroup-item">
+                            <input type="radio" name="tingkatan" value="XII" class="selectgroup-input"  {{$id->tingkatan=='XII' ? 'checked=""' : ''}}>
+                            <span class="selectgroup-button">IV</span>
+                          </label>
+                          <label class="selectgroup-item">
+                            <input type="radio" name="tingkatan" value="XII" class="selectgroup-input"  {{$id->tingkatan=='XII' ? 'checked=""' : ''}}>
+                            <span class="selectgroup-button">V</span>
+                          </label>
+                          <label class="selectgroup-item">
+                            <input type="radio" name="tingkatan" value="XII" class="selectgroup-input"  {{$id->tingkatan=='XII' ? 'checked=""' : ''}}>
+                            <span class="selectgroup-button">XI</span>
                           </label>
 
                         </div>
@@ -60,11 +72,27 @@ Kelas
                         <div class="selectgroup w-100">
                           <label class="selectgroup-item">
                             <input type="radio" name="jurusan" value="OTO" class="selectgroup-input" {{$id->jurusan=='OTO' ? 'checked=""' : ''}}>
-                            <span class="selectgroup-button">OTO</span>
+                            <span class="selectgroup-button">A</span>
                           </label>
                           <label class="selectgroup-item">
                             <input type="radio" name="jurusan" value="TKJ" class="selectgroup-input" {{$id->jurusan=='TKJ' ? 'checked=""' : ''}}>
-                            <span class="selectgroup-button">TKJ</span>
+                            <span class="selectgroup-button">B</span>
+                          </label>
+                           <label class="selectgroup-item">
+                            <input type="radio" name="jurusan" value="TKJ" class="selectgroup-input" {{$id->jurusan=='TKJ' ? 'checked=""' : ''}}>
+                            <span class="selectgroup-button">C</span>
+                          </label>
+                           <label class="selectgroup-item">
+                            <input type="radio" name="jurusan" value="TKJ" class="selectgroup-input" {{$id->jurusan=='TKJ' ? 'checked=""' : ''}}>
+                            <span class="selectgroup-button">D</span>
+                          </label>
+                           <label class="selectgroup-item">
+                            <input type="radio" name="jurusan" value="TKJ" class="selectgroup-input" {{$id->jurusan=='TKJ' ? 'checked=""' : ''}}>
+                            <span class="selectgroup-button">E</span>
+                          </label>
+                           <label class="selectgroup-item">
+                            <input type="radio" name="jurusan" value="TKJ" class="selectgroup-input" {{$id->jurusan=='TKJ' ? 'checked=""' : ''}}>
+                            <span class="selectgroup-button">F</span>
                           </label>
 
                         </div>

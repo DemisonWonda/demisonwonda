@@ -86,9 +86,8 @@ Siswa
                                     {{$data->nomerinduk.'-'.Str::limit($data->nama,25,' ...')}}
                                 </td>
                                 <td>
-
-                                    {{ $data->kelas_id!=null ? $data->kelas->tingkatan.' '.$data->kelas->jurusan.' '.$data->kelas->suffix : 'Data tidak ditemukan'}}
-
+                               
+                                    {{ $data->kelas!=null ? $data->kelas->tingkatan.' '.$data->kelas->jurusan.' '.$data->kelas->suffix : 'Belum ada kelas'}}
 
                                 </td>
                                 <td>
