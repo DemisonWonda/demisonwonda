@@ -35,7 +35,11 @@ use App\Http\Controllers\siswadataajarcontroller;
 use App\Http\Controllers\siswaekskulcontroller;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
-use SimpleSoftwareIO\QrCode\Facades\QrCode;
+use SimpleSoftwareIO\QrCode\Facades\QrCode; 
+use App\Http\Controllers\LaporanNilaiController;
+use App\Http\Controllers\PrintController;
+
+
 
 
 Route::get('/', function () {
@@ -298,5 +302,19 @@ Route::group(['middleware' => ['auth:web', 'verified']], function() {
 
     Route::get('/menusiswa/materi/{dataajar}', [siswadataajarcontroller::class, 'materi'])->name('menusiswa.materi');
     Route::get('/menusiswa/materi/{dataajar}/detail/{kd}', [siswadataajarcontroller::class, 'materidetail'])->name('menusiswa.materi.detail');
+
+    Route::prefix('print')->group(function() {
+    Route::get('/siswa', [PrintController::class, 'siswa'])->name('print.siswa');
+    Route::get('/nilai', [PrintController::class, 'nilai'])->name('print.nilai');
+
+    // PDF
+    Route::get('/siswa/pdf', [PrintController::class, 'siswaPdf'])->name('print.siswa.pdf');
+    Route::get('/nilai/pdf', [PrintController::class, 'nilaiPdf'])->name('print.nilai.pdf');
+
+Route::get('/print/siswa', [PrintController::class, 'siswa'])->name('siswa.soy');
+Route::get('/print/nilai', [PrintController::class, 'nilai'])->name('nilai.soy');
+
+
+    });
 
 });
